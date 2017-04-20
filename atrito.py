@@ -5,6 +5,10 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 
+#
+#  dalkdsslkhdas adslkdaslk wiqweoi
+#
+
 k=1
 m=1
 g=9.8
