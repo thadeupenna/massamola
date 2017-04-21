@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 k=1
 m=1
-g=9.8/6
+g=9.8/9
 dt=0.01
 x=[1]
 v=[0]
@@ -21,6 +21,6 @@ for tt in range(10000):
 	a.append(-k*x[-1]-mu*N*np.sign(v[-1]))
 	v.append(v[-1]+0.5*(a[-1]+a[-2])*dt)
 plt.figure(1)
-plt.plot(t,x)
+plt.plot(x,v)
 #plt.axes().set_aspect('equal')
 plt.show()
