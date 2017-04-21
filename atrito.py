@@ -21,6 +21,6 @@ for tt in range(10000):
 	a.append(-k*x[-1]-mu*N*np.sign(v[-1]))
 	v.append(v[-1]+0.5*(a[-1]+a[-2])*dt)
 plt.figure(1)
-plt.plot(t,x)
+plt.plot(x,v)
 #plt.axes().set_aspect('equal')
 plt.show()
