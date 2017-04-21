@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 k=1
 m=1
-g=9.8/6
+g=9.8/9
 dt=0.01
 x=[1]
 v=[0]
