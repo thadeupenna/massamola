@@ -7,7 +7,11 @@ import matplotlib.pyplot as plt
 
 k=1
 m=1
+<<<<<<< HEAD
 g=9.8/9
+=======
+g=9.8/8
+>>>>>>> b6e4285... g menor que a Lua
 dt=0.01
 x=[1]
 v=[0]
